@@ -21,20 +21,20 @@
 # 13 14 15 16
 #  5  6  7  8
 
-n = int(input())
-k=1
-for i in range(n //2 + n%2):
-    for j in range(n):
-        print (k+j,end=" ")
-    k=k+2*n
-    print()
+# n = int(input())
+# k=1
+# for i in range(n //2 + n%2):
+#     for j in range(n):
+#         print (k+j,end=" ")
+#     k=k+2*n
+#     print()
 
-k = n**2 - (n + n % 2*n) + 1
-for i in range(n//2):
-    for j in range(n):
-        print(k+j,end=" ")
-    k=k-2*n
-    print()
+# k = n**2 - (n + n % 2*n) + 1
+# for i in range(n//2):
+#     for j in range(n):
+#         print(k+j,end=" ")
+#     k=k-2*n
+#     print()
 
 
 
